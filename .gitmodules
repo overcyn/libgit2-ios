@@ -6,4 +6,4 @@
 	url = https://github.com/libssh2/libssh2.git
 [submodule "External/libgit2"]
 	path = External/libgit2
-	url = https://github.com/libgit2/libgit2.git
+	url = https://github.com/overcyn/libgit2.git
