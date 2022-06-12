@@ -88,6 +88,7 @@ do
         -DLIBSSH2_LIBRARIES="-L$LIBSSH2_ROOT_DIR/lib -L$OPENSSL_LIBRARIES_DIR -lssh2 -lssl -lcrypto" \
         -DBUILD_SHARED_LIBS=OFF \
         -DBUILD_CLAR=OFF \
+        -DBUILD_TESTS=OFF \
         .. >> $LOG 2>&1
     cmake --build . --target install >> $LOG 2>&1
 
